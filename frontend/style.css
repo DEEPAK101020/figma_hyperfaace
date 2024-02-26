@@ -1,0 +1,51 @@
+#main-container{
+ height: 768;
+ width: 1024;
+ /* top: 135;
+ left: 221; */
+ border: 2px solid red;
+}
+#header-section{
+    display: flex;
+}
+
+/* //dropdown */
+
+.dropdownbtn{
+    background-color: transparent;
+/* position: absolute; */
+z-index: 1;
+}
+.dropdown-content{
+    display: none;
+    background-color: rgb(219, 135, 135);
+}
+
+.dropdown-content :hover{
+    background-color: rgb(101, 109, 109);
+}
+#circlebox{
+    border-radius: 50%;
+    height:40px;
+    width: 120px;
+}
+
+/* image */
+#image-section{
+    width: 30%;
+    height: 400px
+}
+#girlimage{
+    border-radius: 5px;
+}
+#bottom-division{
+
+}
+#box-required{
+    width: 161px;
+    height: 50px;
+    top: 550px; 
+    left: 519px;
+    border-radius:4px solid black;
+
+}
